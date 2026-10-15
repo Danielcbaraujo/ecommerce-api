@@ -1,0 +1,31 @@
+{
+  "name": "ecommerce-api",
+  "version": "1.0.0",
+  "description": "E-commerce REST API using Node.js, Express, and PostgreSQL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+     "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danielcbaraujo/ecommerce-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Danielcbaraujo/ecommerce-api/issues"
+  },
+  "homepage": "https://github.com/Danielcbaraujo/ecommerce-api#readme",
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
